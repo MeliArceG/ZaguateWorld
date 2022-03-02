@@ -1,0 +1,56 @@
+.letra{
+    font-family: cursive;
+}
+
+#cabecera h1{
+    color: rgb(216, 36, 111);
+    margin-top: 10px;
+}
+
+#cabecera p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-top: 25px;
+}
+  
+body { 
+    font: normal .8em arial, sans-serif;
+    color: #555;
+}
+  
+  /* #container { 
+  } */
+  
+#main{
+    padding-bottom: 20px;
+    width: 100%; 
+    position: relative; 
+    overflow: auto; 
+    margin: 0 auto; 
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 0px;
+}
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    background-color: #53C7FD;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+footer a{
+    color: #fff;
+    margin-left: 10px;
+}
+
+.raya{
+    border-right: 2px solid #fff;
+}
+
+.raya:hover{
+    color: #E5017D;
+}

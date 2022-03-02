@@ -1,0 +1,112 @@
+@font-face { 
+  font-family: Yanone Kaffeesatz; 
+  src: url('../fonts/YanoneKaffeesatz-Regular.eot'); 
+  src: local("Yanone Kaffeesatz"), url('../fonts/YanoneKaffeesatz-Regular.ttf'); 
+} 
+
+#sun{
+  margin-top: 0px;
+  float: left;
+}
+
+html { 
+  height: 100%;
+}
+
+* { 
+  padding: 0;
+  margin: 0;
+}
+  
+article, aside, figure, footer, header, hgroup, nav, section { 
+  display:block;
+}
+
+img{
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+body { 
+  font: normal .8em arial, sans-serif;
+  background: #C4E9E8 url(../images/back.png) repeat-x;
+  color: #555;
+}
+
+#container {
+  background: transparent url(../images/grass.png) repeat-x bottom;
+}
+
+#main{
+  margin-top: 50px;
+  padding-bottom: 20px;
+  width: 63%; 
+  margin: 0 auto; 
+  background-color: #fff;
+  border-radius: 20px;
+  height: 100%;
+}
+
+#cabecera img{
+  width: 100%;
+}
+
+h1{
+  color: #E5017D;
+}
+
+footer{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+  color: #fff;
+  background-color: #53C7FD;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+footer a{
+  color: #fff;
+}
+
+footer .raya{ /*Espacio con la raya*/
+  padding-right:5px;
+}
+
+.raya{
+  border-right: 2px solid #fff;
+}
+
+.raya:hover{
+  color: #E5017D;
+}
+
+.ultimo{
+  border-right: none;
+}
+
+
+form{
+  padding-top: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 720px) {
+  #sun {
+    width: 20%;
+  }
+}
+
+@media only screen and (max-width: 1170px) {
+    #cabecera img {
+      width: 80%;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+  #cabecera img {
+    width: 75%;
+  }
+}

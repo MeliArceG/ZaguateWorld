@@ -1,0 +1,41 @@
+.imgMaltrato{
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+  }
+
+  .parrafoM{
+    margin-bottom: 2%;
+    margin-top: 2%;
+  }
+
+  .titulo{
+    color: #E5017D;
+    font-size: x-large;
+    text-align: center;
+  }
+
+  .parrafo{
+    margin-bottom: 2%;
+    margin-top: 2%;
+    text-align: justify;
+    margin-right: 2%;
+  }
+
+  .imgAdopta{
+    margin-left: 2%;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .imgAdopta, .imgMaltrato{
+      display: none;
+    }
+    .titulo{
+      font-size: medium;
+      margin-right: 5%;
+    }
+    .parr{
+      font-size: small;
+      width: 95%;
+    }
+  }

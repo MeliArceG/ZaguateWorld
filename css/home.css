@@ -1,0 +1,101 @@
+@font-face { 
+    font-family: Yanone Kaffeesatz; 
+      src: url('../fonts/YanoneKaffeesatz-Regular.eot'); 
+      src: local("Yanone Kaffeesatz"), url('../fonts/YanoneKaffeesatz-Regular.ttf'); 
+  } 
+  
+  html { 
+    height: 100%;
+    padding-bottom: 50%;
+  }
+  
+  article, aside, figure, footer, header, hgroup, nav, section { 
+    display:block;
+  }
+  
+  #tituloCP{
+    color: #E5017D;
+    font-size: xx-large;
+    margin-left: 2%;
+  }
+  
+  .parrafoCP{
+    text-align: left;
+    font-size: small;
+    margin-right: 50%;
+    margin-left: 2%;
+    color: black;
+    justify-content: center;
+  }
+  
+  .listaCP{
+    text-align: left;
+    font-size: small;
+    margin-left: 1%;
+  }
+  
+  .imgAnimados05{
+    float: right;
+    margin-right: 28%;
+  }
+  
+  .cuadros{
+    background-color:  #F5FEFF;
+    border: 1px solid #C9E5E9;
+    border-radius: 10px;
+    width: 20%;
+  }
+  
+  .tituloC{
+    font-size: medium;
+    color: rgb(44, 196, 44);
+  }
+  
+  .fecha{
+    font-size: small;
+  }
+  
+  .linkIMG{
+    color: #4abbf0;
+  }
+  
+  .cuadro1 .cuadro2 .cuadro3{
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+  
+  aside{
+    margin-left:  78%;
+    margin-top: 2%;
+  }
+  
+  .articuloCP{
+    margin-top: -60%;
+  }
+  
+  main{
+    margin-top: 0%;
+    margin-bottom: 15%;
+  }
+
+  @media only screen and (max-width: 1300px) {
+    .cuadros, .imgAnimados05 {
+      display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 1300px) {
+    .articuloCP {
+      display: contents;
+    }
+    h1{
+      text-align: center;
+    }
+    .parrafoCP{
+      width: 95%;
+      text-align: justify;
+    }
+    main{
+      margin-bottom: 1%;
+    }
+  }

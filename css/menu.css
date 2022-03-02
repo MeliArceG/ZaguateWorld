@@ -1,0 +1,29 @@
+nav{
+    width: 100%;
+    background-color: #53C7FD;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+#navbarNavDropdown li a{
+    font-family: cursive;
+    color: #fff;
+    background-color: #53C7FD;
+}
+
+#navbarNavDropdown li a:hover{
+    color: #E5017D;
+    background-color: #72bee0;
+}
+
+#navbarNavDropdown li:hover > ul{
+    display: block;
+}
+
+@media only screen and (max-width: 992px) { /* For mobile phones: */
+    nav{
+        display: none;
+        width: 100%;
+        font-size: 15px;
+    }
+}
